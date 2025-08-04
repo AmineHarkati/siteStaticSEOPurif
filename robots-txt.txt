@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://airepuro.com/sitemap.xml
+
+# Block access to admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow important files
+Allow: /style.css
+Allow: /images/
+Allow: /favicon.ico
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
