@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://airepuro.com/sitemap.xml
+Sitemap: https://sitestaticseopurif.onrender.com/sitemap.xml
 
 # Block access to admin areas (if any)
 Disallow: /admin/

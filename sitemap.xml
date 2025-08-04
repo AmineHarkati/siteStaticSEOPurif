@@ -5,35 +5,35 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
     <url>
-        <loc>https://airepuro.com/</loc>
+        <loc>https://sitestaticseopurif.onrender.com</loc>
         <lastmod>2025-08-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
-        <loc>https://airepuro.com/#features</loc>
+        <loc>https://sitestaticseopurif.onrender.com/#features</loc>
         <lastmod>2025-08-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://airepuro.com/#specs</loc>
+        <loc>https://sitestaticseopurif.onrender.com/#specs</loc>
         <lastmod>2025-08-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://airepuro.com/#testimonials</loc>
+        <loc>https://sitestaticseopurif.onrender.com/#testimonials</loc>
         <lastmod>2025-08-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://airepuro.com/#faq</loc>
+        <loc>https://sitestaticseopurif.onrender.com/#faq</loc>
         <lastmod>2025-08-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
