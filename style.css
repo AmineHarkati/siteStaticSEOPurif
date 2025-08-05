@@ -202,6 +202,61 @@ nav {
     margin-bottom: 1rem;
 }
 
+/* Price Display */
+.price-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.price-label {
+    font-size: 1.1rem;
+    color: var(--gray-600);
+    font-weight: 500;
+}
+
+.price-current {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
+}
+
+.price-original {
+    font-size: 1.2rem;
+    color: var(--gray-500);
+    text-decoration: line-through;
+}
+
+.price-discount {
+    background: var(--success);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Responsive price */
+@media (max-width: 480px) {
+    .price-current {
+        font-size: 2rem;
+    }
+    
+    .price-display {
+        gap: 0.5rem;
+    }
+}
+
 .feature-card p {
     color: var(--gray-600);
     line-height: 1.7;
